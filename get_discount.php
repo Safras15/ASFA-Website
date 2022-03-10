@@ -1,0 +1,21 @@
+<?php
+	include_once("Includes/connect.php");
+	$coupon_code = $_POST['coupon'];
+	$price = $_POST['price'];
+	
+	$query = mysqli_query($conn, "SELECT * FROM `coupon` WHERE `coupon_code` = '$coupon_code' && `status` = 'Valid'") or die(mysqli_error());
+	$count = mysqli_num_rows($query);
+	$row = mysqli_fetch_array($query);
+	$array = array();
+	if($count > 0){
+		$discount = $row['discount'] / 100;
+		$total = $discount * $price;
+		$array['discount'] = $row['discount'];
+		$array['price'] = $price - $total;
+		
+		echo json_encode($array);
+		
+	}else{
+		echo "error";
+	}
+?>

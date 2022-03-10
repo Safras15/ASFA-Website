@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?08fe23af6ae30812c13b25c761764f84") format("truetype"),
+url("./flaticon.woff?08fe23af6ae30812c13b25c761764f84") format("woff"),
+url("./flaticon.woff2?08fe23af6ae30812c13b25c761764f84") format("woff2"),
+url("./flaticon.eot?08fe23af6ae30812c13b25c761764f84#iefix") format("embedded-opentype"),
+url("./flaticon.svg?08fe23af6ae30812c13b25c761764f84#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-screws:before {
+    content: "\f101";
+}
+
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?c71c62d21f0606ac6b4ff608fc995aa2") format("truetype"),
+url("./flaticon.woff?c71c62d21f0606ac6b4ff608fc995aa2") format("woff"),
+url("./flaticon.woff2?c71c62d21f0606ac6b4ff608fc995aa2") format("woff2"),
+url("./flaticon.eot?c71c62d21f0606ac6b4ff608fc995aa2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c71c62d21f0606ac6b4ff608fc995aa2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-chatting:before {
+    content: "\f101";
+}
+
